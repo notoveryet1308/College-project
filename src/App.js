@@ -7,6 +7,7 @@ import Housepage from './pages/house-page/housepage';
 import Signuppage from './pages/signup-page/signuppage';
 import Loginpage from './pages/login-page/loginpage';
 import Addpropertypage from './pages/add-property-page/addpropertypage';
+// import HouseCardNew from './components/HousePreviewNew';
 
 
 
@@ -23,6 +24,8 @@ function App() {
          <Route exact path='/login' render={()=> <Loginpage/>} />
          <Route exact path='/add-a-property' render={()=> <Addpropertypage/>} />
       </Switch>
+
+      {/* <HouseCardNew/> */}
     
     </div>
   );
