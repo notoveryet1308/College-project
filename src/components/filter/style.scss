@@ -1,0 +1,61 @@
+.filter-component {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 111;
+
+  .filter-box {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 0 5px 0 5px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+    .filter-icon {
+      display: flex;
+      justify-content: flex-start;
+
+      .curr-city {
+        margin: 0 1rem;
+        font-size: 17px;
+        color: rgb(29, 99, 230);
+        font-weight: bold;
+      }
+    }
+
+    .fas {
+      color: rgb(29, 99, 230);
+      font-size: 17px;
+    }
+  }
+}
+
+.filter-bottom {
+  width: 100%;
+  background-color: rgb(212, 162, 162);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.filter-close {
+  min-height: 0;
+  // -webkit-transition: max-height 1s;
+  // -moz-transition: max-height 1s;
+  // -ms-transition: max-height 1s;
+  // -o-transition: max-height 1s;
+  transition: all 300ms ease;
+}
+
+.filter-open {
+  min-height: 100vh;
+  // -webkit-transition: all 1s;
+  // -moz-transition: all 1s;
+  // -ms-transition: all 1s;
+  // -o-transition: min-height 1s;
+  transition: all 300ms ease;
+}

@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './applycard.styles.scss';
 
 export default class Applycard extends Component {
+ 
     render() {
+       const {price} = this.props;
         return (
             <div className='applycard'>
                 <div className='applycard-box'>
@@ -11,7 +13,7 @@ export default class Applycard extends Component {
                     </div>
                     <div className='box price-digit'>
                         {/* <i class="fal fa-arrow-circle-down"></i> */}
-                        <span >$1970</span>
+                        <span >{price} INR</span>
                     </div>
                     <div className='box avalaible'>
                         <span>Avalaible:</span>

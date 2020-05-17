@@ -18,8 +18,8 @@ function App() {
 
       <Switch>
          <Route exact path='/' component={Homepage}/>
-         <Route exact path='/rent' render={(routeProps)=> <Rentpage {...routeProps}/>}/>
-         <Route exact path='/rent/:index' render={(routeProps)=> <Housepage {...routeProps}/>}/>
+         <Route exact path='/rent/:city' render={(routeProps)=> <Rentpage {...routeProps}/>}/>
+         <Route exact path='/rent/:city/:id/:indexID' render={(routeProps)=> <Housepage {...routeProps}/>}/>
          <Route exact path='/signup' render={()=> <Signuppage/>}/>
          <Route exact path='/login' render={()=> <Loginpage/>} />
          <Route exact path='/add-a-property' render={()=> <Addpropertypage/>} />

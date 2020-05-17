@@ -1,19 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './housecontainer.styles.scss';
-import HouseCard from '../houseCard/house';
-import {DemoHouse} from './../../../helpers/demoHouseData';
+// import HouseCard from '../houseCard/house';
+// import { DemoHouse } from './../../../helpers/demoHouseData';
+import NewHouseCard from '../../HousePreviewNew';
+import { DATA } from '../../../helpers/RentAvailableData';
+import Filter from '../../filter';
+function Housecontainer(props) {
+ let cityname = props.city.toLowerCase();
+ console.log(`cityname: ${cityname} > ${typeof cityname} `)
+  return (
+    <div className='house-container'>
 
-export default class Housecontainer extends Component {
-    render() {
-        return (
-            <div className='house-container'>
-                <p className='rent-ava-text'>Rent available near you...</p>
-                <div className='house-box'>
-                    <div className='houses'>
-                        {DemoHouse.map(house=> <HouseCard key={house._id} {...house} {...this.props} className='housecard'/>)}
-                    </div>
-                </div>
-            </div>
-        )
-    } 
+      <div className='house-box'>
+        <Filter />
+        <div className='houses'>
+          {DATA[cityname].map((house, indexID) => <NewHouseCard key={house._id} {...house} {...props} className='housecard' city={cityname} id={house._id} indexID={indexID} />)}
+        </div>
+      </div>
+    </div>
+  )
+
 }
+
+export default Housecontainer;
+

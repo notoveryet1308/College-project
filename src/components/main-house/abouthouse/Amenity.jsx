@@ -1,30 +1,25 @@
 import React from 'react';
 import './Amenity.styles.scss';
-import ac from '../../../images/svg/ac.svg';
-import dishwasher from '../../../images/svg/dishwasher.svg';
-import doorman from '../../../images/svg/doorman.svg';
-import elevator from '../../../images/svg/elevator.svg';
-import floor from '../../../images/svg/floor.svg';
-import parking from '../../../images/svg/parking.svg';
-import view from '../../../images/svg/view.svg';
-import storage from '../../../images/svg/storage.svg';
+
+// import { DATA } from '../../../helpers/RentAvailableData';
 
 
-function Amenity() {
-    return (
-        <div className='amenity-container'>
-            <div className='amenity-content'>
-                <h1 className='amenity-heading'>
-                    Amenities
+function Amenity({amenities}) {
+  
+  return (
+    <div className='amenity-container'>
+      <div className='amenity-content'>
+        <h1 className='amenity-heading'>
+          Amenities
                 </h1>
-                <div className="amenities-box">
-                    <div className="amenity">
-                        <img className='amenity-icon' src={elevator} alt='elevator' />
-                        <p className='amenity-text'>
-                            Elevator
-                        </p>
-                    </div>
-                    <div className="amenity">
+        <div className="amenities-box">
+          {amenities.map(amenity => <div className="amenity">
+            <img className='amenity-icon' src={amenity.svg} alt='elevator' />
+            <p className='amenity-text'>
+              {amenity.text.toUpperCase()}
+            </p>
+          </div>)}
+          {/* <div className="amenity">
                         <img className='amenity-icon' src={ac} alt='ac' />
                         <p className='amenity-text'>
                             Air conditioner
@@ -65,11 +60,11 @@ function Amenity() {
                         <p className='amenity-text'>
                             Storage
                         </p>
-                    </div>
-                </div>
-            </div>
+                    </div> */}
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default Amenity

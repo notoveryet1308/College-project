@@ -3,7 +3,7 @@ import './mini_des.styles.scss';
 
 class Mini_des extends Component {
     render() {
-        const { bathroom, dogs, cats, area, deposit, mobileView } = this.props;
+        const { bathroom,  area, mobileView } = this.props;
         return (
             <div className={`mini-des ${mobileView && 'mobile-view'}`}>
                 {!mobileView && <div className='des-text'>
@@ -23,16 +23,16 @@ class Mini_des extends Component {
                     { !mobileView && <div className='des-info cats'>
                         <i className="fas fa-cat"></i>
                         <span>Cats</span>
-                        <span>{cats}</span>
+                        <span>2</span>
                     </div>}
                     {!mobileView && <div className='des-info dogs'>
                         <i className="fas fa-dog"></i>
                         <span>Dogs</span>
-                        <span>{dogs}</span>
+                        <span>2</span>
                     </div>}
                     <div className='des-info deposit'>
                         <i className="fas fa-money-check-alt"></i>
-                        <span>{deposit}</span>
+                        <span>2000 INR</span>
                         <span>Deposit</span>
                     </div>
                 </div>
