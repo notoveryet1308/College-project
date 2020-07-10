@@ -15,7 +15,6 @@ const {indexID} = useParams();
       <MainNavigation style_diff={true} />
       <MainHouseBox className='Main-house-box' id={indexID} />
       <MainHouseBoxMobile id={indexID} />
-
     </div>
   )
 }

@@ -4,24 +4,18 @@
   position: fixed;
   top: 8.1%;
   margin-bottom: 0;
+  display: flex;
 
-
-  .rent-ava-text {
-    display: inline-block;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    margin-left: 10rem;
-  }
 }
 
 .house-box {
 
   width: 51%;
-  margin: 1rem 2rem;
+  margin: 16px 2rem;
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-right: 0;
   // background-color: #333;
 
 
@@ -34,6 +28,13 @@
     height: 530px;
     padding-bottom: 5rem;
   }
+}
+
+.map-container{
+  margin-top: 17px;
+  width: 45%;
+  height: 100vh;
+  // background: rgb(209, 101, 101);
 }
 
 @media screen and (max-width: 720px) {

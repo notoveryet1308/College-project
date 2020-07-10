@@ -1,25 +1,26 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './style.scss';
 
-function Index() {
-  const [isOpen, setOpen] = useState(false);
-  const handleOpen = () => {
-    setOpen(!isOpen);
-  }
+const cityname = {
+  delhi: "New Delhi, Delhi India",
+  agra:"Agra, UP India",
+  chandigarh:"Chandigarh, India",
+  amritsar:"Amristar, Punjab India",
+  shimla:"Shimla, Himachal India",
+  assam:"Assam, India",
+  patna:"Patna, Bihar India",
+  ladakh:"Ladakh, India"
+}
+
+function Index({city}) {
+
   return (
     <div className="filter-component">
-      <div className="filter-box " onClick={handleOpen}>
+      <div className="filter-box ">
         <div className="filter-icon">
-          <i className="fas fa-filter"></i>
-          <p className="curr-city">New Delhi, Delhi India</p>
-        </div>
-        <div className="caret-icon">
-          <i className="fas fa-caret-down"></i>
+          <p className="curr-city">{cityname[city]}</p>
         </div>
       </div>
-      {isOpen && <div className={`filter-bottom ${isOpen ? 'filter-open': 'filter-close'}`} >
-
-      </div>}
     </div>
   )
 }

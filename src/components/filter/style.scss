@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     padding: 0 10px;
-    border: 1px solid rgb(214, 210, 210);
+    // border: 1px solid rgb(214, 210, 210);
     border-radius: 0 5px 0 5px;
     height: 50px;
     margin: 0 auto;
@@ -21,9 +21,9 @@
       justify-content: flex-start;
 
       .curr-city {
-        margin: 0 1rem;
-        font-size: 17px;
-        color: rgb(29, 99, 230);
+        margin: 0 .5rem;
+        font-size: 20px;
+        color: rgb(66, 65, 65);
         font-weight: bold;
       }
     }
