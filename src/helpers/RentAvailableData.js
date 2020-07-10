@@ -229,233 +229,966 @@ export const DATA = {
     }
   ],
   agra: [{
-    _id: "5e26d7a28a8bcf97a3689150",
-    latitude: 27.1743278,
-    longitude: 77.9915143,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Pritam Pura, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_6
-  },
-  {
-    _id: "5e26d7a28a8bcf97a3689151",
-    latitude: 27.1748054,
-    longitude: 77.9921562,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Yogi Nagar, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_7
-  },
-  {
-    _id: "5e26d7a28a8bcf97a3689152",
-    latitude: 27.1748437,
-    longitude: 77.9924358,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Shayam Nagar, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_8
-  },
-  {
-    _id: "5e26d7a28a8bcf97a3689153",
-    latitude:27.1758957,
-    longitude: 77.9926758,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Idgah Colony, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_9
-  },
-  {
-    _id: "5e26d7a28a8bcf97a3689154",
-    latitude:27.1758957,
-    longitude: 77.9926758,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Shahganj, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_10
-  },
-  {
-    _id: "5e26d7a28a8bcf97a3689155",
-    latitude:27.1768792,
-    longitude: 77.9923181,
-    bed_room: 2,
-    area: 1052,
-    bathroom: 2,
-    price: 28000,
-    address: "Indra Colony, Agra UP India",
-    type: "Apartment",
-    amenities: [{
-      svg: elevator,
-      text: "elevator"
-    }, {
-      svg: floor,
-      text: "hardwood floor"
-    }, {
-      svg: parking,
-      text: "parking"
-    }, {
-      svg: view,
-      text: "view"
-    }, {
-      svg: ac,
-      text: "Air Conditioner"
-    }, {
-      svg: dishwasher,
-      text: "Dish-Washer"
-    }, {
-      svg: doorman,
-      text: "Doorman"
-    }, {
-      svg: storage,
-      text: "Storage"
-    }],
-    ownerContactNumber: 9090909090,
-    main_img: house_11
-  }
+      _id: "5e26d7a28a8bcf97a3689150",
+      latitude: 27.1743278,
+      longitude: 77.9915143,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Pritam Pura, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_6
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689151",
+      latitude: 27.1748054,
+      longitude: 77.9921562,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Yogi Nagar, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_7
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689152",
+      latitude: 27.1748437,
+      longitude: 77.9924358,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Shayam Nagar, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_8
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689153",
+      latitude: 27.1758957,
+      longitude: 77.9926758,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Idgah Colony, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_9
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689154",
+      latitude: 27.1758957,
+      longitude: 77.9926758,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Shahganj, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_10
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689155",
+      latitude: 27.1768792,
+      longitude: 77.9923181,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Indra Colony, Agra UP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_11
+    }
+  ],
+  amritsar: [{
+      _id: "5e26d7a28a8bcf97a3689160",
+      latitude: 31.619196,
+      longitude: 74.838183,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Guru Nanak Pura, Amritsar Punjab India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_3
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689161",
+      latitude: 31.639952,
+      longitude: 74.830294,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Amritsar Punjab India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_4
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689162",
+      latitude: 31.608651,
+      longitude: 74.881773,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Kotatma ram, Amritsar Punjab India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_5
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689163",
+      latitude: 31.616538,
+      longitude: 74.890363,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Green, Amritsar Punjab India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_6
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689164",
+      latitude: 31.632030,
+      longitude: 74.892095,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sharifpur, Amritsar Punjab India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_7
+    }
+  ],
+  assam: [{
+      _id: "5e26d7a28a8bcf97a3689170",
+      latitude: 26.404645,
+      longitude: 91.741307,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Kamrup, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_1
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689171",
+      latitude: 26.400886,
+      longitude: 92.466016,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Nagaon, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_2
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689172",
+      latitude: 26.726127,
+      longitude: 92.259333,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Udalgiri, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_3
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689173",
+      latitude: 26.450428,
+      longitude: 93.191818,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Karbi, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_4
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689174",
+      latitude: 26.595176,
+      longitude: 92.308589,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Darrang, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_5
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689175",
+      latitude: 26.775701,
+      longitude: 92.673900,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sonita, Assam India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_6
+    }
+  ],
+  shimla: [{
+      _id: "5e26d7a28a8bcf97a3689180",
+      latitude: 31.091512,
+      longitude: 77.156168,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Tutikandi, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_8
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689181",
+      latitude: 31.088030,
+      longitude: 77.170061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Tutikandi, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_9
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689182",
+      latitude: 31.088030,
+      longitude: 77.170061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Tutikandi, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_10
+    },
+    {
+
+      _id: "5e26d7a28a8bcf97a3689183",
+      latitude: 31.088030,
+      longitude: 77.170061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Khaliki, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_1
+    },
+    {
+
+      _id: "5e26d7a28a8bcf97a3689183",
+      latitude: 31.088030,
+      longitude: 77.170061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Khaliki, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_2
+    },
+    {
+
+      _id: "5e26d7a28a8bcf97a3689183",
+      latitude: 31.088030,
+      longitude: 77.170061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Khaliki, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_1
+    },
+    {
+
+      _id: "5e26d7a28a8bcf97a3689183",
+      latitude: 31.111492,
+      longitude: 77.1052007,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Khaliki, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_3
+    },
+    
+    {
+
+      _id: "5e26d7a28a8bcf97a3689184",
+      latitude: 31.083685, 
+      longitude: 77.192607,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Malyana, Shimla HP India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_4
+    }
+
   ]
+
 }
 // ,

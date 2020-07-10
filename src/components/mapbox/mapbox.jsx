@@ -7,7 +7,10 @@ const REACT_APP_MAPBOX_TOKEN = 'pk.eyJ1Ijoibm90b3ZlcnlldDEzMDgiLCJhIjoiY2s1bnZqc
 
 const coodinates = {
   delhi:[28.633649, 77.0935648],
-  agra:[27.1786748,77.9714333]
+  agra:[27.1786748,77.9714333],
+  amritsar:[31.636725, 74.863598],
+  assam: [26.634856, 91.916166],
+  shimla:[31.095406, 77.177572]
 
 }
 
@@ -19,7 +22,7 @@ function Mapbox({coords, citycord}) {
         latitude: city[0],
         longitude: city[1],
         center :[city[0], city[1]],
-        zoom: 13,
+        zoom: 11,
 
     });
     return (
