@@ -2,7 +2,10 @@
   "name": "renteasy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://notoveryet1308.github.io/renteasy/",
+  "engines": {
+    "node": "13.12.0",
+    "npm":"6.14.4"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
