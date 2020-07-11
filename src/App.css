@@ -14,3 +14,15 @@ a{
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
+
+.buy-route{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+.buy-route h1{
+  font-size: 35px;
+  color: rgb(197, 135, 20);
+}

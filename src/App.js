@@ -16,6 +16,7 @@ function App() {
       <Switch>
          <Route exact path='/' component={Homepage}/>
          <Route exact path='/rent/:city' render={(routeProps)=> <Rentpage {...routeProps}/>}/>
+         <Route exact path='/buy' component={Buy}/>
          <Route exact path='/rent/:city/:id/:indexID' render={(routeProps)=> <Housepage {...routeProps}/>}/>
          <Route exact path='/signup' render={()=> <Signuppage/>}/>
          <Route exact path='/login' render={()=> <Loginpage/>} />
@@ -23,6 +24,14 @@ function App() {
       </Switch>
     </div>
   );
+}
+
+function Buy(){
+  return(
+      <div className="buy-route">
+        <h1>Sorry, this route is under maintenance.</h1>
+      </div>
+  )
 }
 
 export default App;

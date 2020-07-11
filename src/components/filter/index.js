@@ -9,7 +9,8 @@ const cityname = {
   shimla:"Shimla, Himachal India",
   assam:"Assam, India",
   patna:"Patna, Bihar India",
-  ladakh:"Ladakh, India"
+  ladakh:"Ladakh, India",
+  gurugram:"Gurugram, Haryana India"
 }
 
 function Index({city}) {

@@ -10,6 +10,14 @@ import house_8 from './../images/houses/house-8.jpg';
 import house_9 from './../images/houses/house-9.jpg';
 import house_10 from './../images/house_10.jpg';
 import house_11 from './../images/house_11.jpg';
+import house_12 from './../images/house_12.jpg';
+import house_13 from './../images/house_13.jpg';
+import house_14 from './../images/house_14.jpg';
+import house_15 from './../images/house_15.jpg';
+import house_16 from './../images/house_16.jpg';
+
+
+
 
 import ac from '../images/svg/ac.svg';
 import dishwasher from '../images/svg/dishwasher.svg';
@@ -1147,11 +1155,11 @@ export const DATA = {
       ownerContactNumber: 9090909090,
       main_img: house_3
     },
-    
+
     {
 
       _id: "5e26d7a28a8bcf97a3689184",
-      latitude: 31.083685, 
+      latitude: 31.083685,
       longitude: 77.192607,
       bed_room: 2,
       area: 1052,
@@ -1188,6 +1196,922 @@ export const DATA = {
       main_img: house_4
     }
 
+  ],
+  patna: [{
+      _id: "5e26d7a28a8bcf97a3689190",
+      latitude: 25.594085,
+      longitude: 85.104241,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Rajbanshi, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_12
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689191",
+      latitude: 25.624429,
+      longitude: 85.079869,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Janta Vihar, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_13
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689192",
+      latitude: 25.601494,
+      longitude: 85.158833,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Chitragupta, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_14
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689193",
+      latitude: 25.630929,
+      longitude: 85.048278,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Danapur, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_15
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689194",
+      latitude: 25.626596,
+      longitude: 85.085707,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Rajeev Nagar, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_16
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689195",
+      latitude: 25.619780,
+      longitude: 85.113862,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Rajeev Nagar, Bihar India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_1
+    }
+  ],
+  chandigarh: [{
+      _id: "5e26d7a28a8bcf97a3689110",
+      latitude: 30.740049,
+      longitude: 76.795808,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 8, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_2
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689111",
+      latitude: 30.721594,
+      longitude: 76.811843,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 26 east, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_3
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689112",
+      latitude: 30.729809,
+      longitude: 76.779134,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 21, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_4
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689113",
+      latitude: 30.745392,
+      longitude: 76.729276,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 39, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_5
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689114",
+      latitude: 30.755476,
+      longitude: 76.771850,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 15, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_6
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689115",
+      latitude: 30.727352,
+      longitude: 76.779449,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 21, Chandigarh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_7
+    }
+  ],
+  gurugram: [{
+      _id: "5e26d7a28a8bcf97a3689120",
+      latitude: 28.434304,
+      longitude: 76.973965,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 36, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_14
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689121",
+      latitude: 28.438483,
+      longitude: 77.019307,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 33, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_15
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689122",
+      latitude: 28.457269,
+      longitude: 76.953383,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Gopalpur, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_16
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689123",
+      latitude: 28.418030,
+      longitude: 76.932743,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 93, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_4
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689124",
+      latitude: 28.459671,
+      longitude: 76.971247,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Sector 100, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_5
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689125",
+      latitude: 28.468098,
+      longitude: 77.000116,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Surya vihar, Gurugram India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_6
+    }
+  ],
+  ladakh: [{
+      _id: "5e26d7a28a8bcf97a3689130",
+      latitude: 34.163635,
+      longitude: 77.582233,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Fort Rd, Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_8
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689131",
+      latitude: 34.164842, 
+      longitude: 77.582061,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Malpuk, Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_9
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689132",
+      latitude: 34.164105,  
+      longitude: 77.583317,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Malpuk, Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_10
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689133",
+      latitude: 34.163431,
+      longitude:  77.580645,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Guest house, Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_11
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689134",
+      latitude: 34.164523, 
+      longitude:  77.580710,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_12
+    },
+    {
+      _id: "5e26d7a28a8bcf97a3689135",
+      latitude: 34.164860, 
+      longitude: 77.581611,
+      bed_room: 2,
+      area: 1052,
+      bathroom: 2,
+      price: 28000,
+      address: "Ladakh Leh India",
+      type: "Apartment",
+      amenities: [{
+        svg: elevator,
+        text: "elevator"
+      }, {
+        svg: floor,
+        text: "hardwood floor"
+      }, {
+        svg: parking,
+        text: "parking"
+      }, {
+        svg: view,
+        text: "view"
+      }, {
+        svg: ac,
+        text: "Air Conditioner"
+      }, {
+        svg: dishwasher,
+        text: "Dish-Washer"
+      }, {
+        svg: doorman,
+        text: "Doorman"
+      }, {
+        svg: storage,
+        text: "Storage"
+      }],
+      ownerContactNumber: 9090909090,
+      main_img: house_13
+    }
   ]
 
 }
